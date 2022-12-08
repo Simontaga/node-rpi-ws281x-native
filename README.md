@@ -1,3 +1,6 @@
+# Fork
+This fork uses the updated native module bindings submodule which supports more hardware revisions.
+
 # control ws281x-LEDs with node.js
 
 **NOTE: This will only ever work on the Raspberry Pi.**
@@ -12,12 +15,12 @@ from a raspberry-pi. Supported are all LEDs of the NEOPIXEL/WS281x-family
 
 this module is available via npm:
 
-    npm install rpi-ws281x-native
+    npm install @simontaga/rpi-ws281x-native
 
 if you prefer installing from source:
 
     npm install -g node-gyp
-    git clone --recursive https://github.com/beyondscreen/node-rpi-ws281x-native.git
+    git clone --recursive https://github.com/Simontaga/node-rpi-ws281x-native.git
     cd rpi-ws281x-native
     npm install
 

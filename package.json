@@ -1,5 +1,5 @@
 {
-  "name": "rpi-ws281x-native",
+  "name": "@simontaga/rpi-ws281x-native",
   "version": "1.0.4",
   "description": "(raspberry-pi *only*) native bindings to control a strip of WS281x-LEDs with node.js",
   "keywords": [
@@ -17,11 +17,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/beyondscreen/node-rpi-ws281x-native.git"
+    "url": "git://github.com/Simontaga/node-rpi-ws281x-native.git"
   },
-  "author": "Martin Schuhfuss <m.schuhfuss@gmail.com>",
-  "homepage": "https://github.com/beyondscreen/node-rpi-ws281x-native",
-  "bugs": "https://github.com/beyondscreen/node-rpi-ws281x-native/issues",
+  "author": "Simontaga",
+  "homepage": "https://github.com/Simontaga/node-rpi-ws281x-native",
+  "bugs": "https://github.com/Simontaga/node-rpi-ws281x-native/issues",
   "license": "MIT",
   "scripts": {
     "install": "node-gyp rebuild -j4 --release",
